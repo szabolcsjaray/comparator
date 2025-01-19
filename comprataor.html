@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <link rel="stylesheet" href="css/comparator.css">
+    <script src="js/token.js"></script>
+    <script src="js/occurence.js"></script>
+    <script src="js/comparartor.js"></script>
+    <script src="js/match.js"></script>
+    <script src="js/matchGroup.js"></script>
+    <script src="js/highlighter.js"></script>
+    <script src="js/subtitles.js"></script>
+</head>
+
+<body  onload="init();">
+    <div id="doc1Div" class="docs leftClass"> </div>
+    <textarea id="doc1" class="docs leftClass">
+        test content three unique words test.
+        next! line two
+    </textarea>
+    <div id="doc2Div" class="docs rightClass"> </div>
+    <textarea id="doc2" class="docs rightClass">
+        another test content? three two
+        next second line
+    </textarea>
+    <textarea id="result" class="docs">
+        another test content? three two
+        next second line
+    </textarea>    
+    <div id="switchInput" class="cButton">Input</div>
+    <div id="switchResult" class="cButton">Result</div>
+    <div id="process" class="cButton">Process</div>
+    <div id="subtitles" class="cButton">Subtitles</div>
+
+    <textarea id="diff1Div"></textarea>
+    <textarea id="diff2Div"></textarea>
+
+    <div id="choose1" class="cButton">1</div>
+    <div id="choose2" class="cButton">2</div>
+</body>
+</html>
+
